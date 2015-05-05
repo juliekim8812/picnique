@@ -1,3 +1,49 @@
 body {
-	
+	background-image: url("http://i.imgur.com/U10hT.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100%;
+	margin-top: -10px;
 }
+
+header nav {
+	background: #000;
+	margin: -15px -10px;
+	padding: 20px;
+}
+
+h1{
+	text-align: center;
+}
+h1 a {
+	font-family: rockwell;
+	color: white;
+	font-size: 100px;
+	text-decoration: none;
+}
+h1 a:link {
+	text-decoration: none;
+	color: #FF0000;
+}
+h1 a:hover {
+ 	color: #A00;
+ }
+
+p {
+	font-family: futura;
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+}
+
+nav a:link {
+	font-family: rockwell;
+	font-weight: normal;
+	font-size: 30px;
+	margin-right: 10px;
+	padding-left: 10px;
+	color: #EEE;
+	text-decoration: none;
+}
+nav a:hover {
+ 	color: #3300CC;
