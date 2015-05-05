@@ -34,6 +34,9 @@ p {
 	color: white;
 	font-size: 30px;
 	text-align: justify;
+	font-weight: normal;
+	padding: 0 10px;
+	background: #AAA;
 }
 
 nav a:link {
