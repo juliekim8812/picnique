@@ -1,20 +1,30 @@
 body {
 /*	background-image: url("http://i.imgur.com/U10hT.jpg");
-*/	background: url("red_picnic_blanket.jpg") no-repeat center center fixed; 
-	/*background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: 100%;*/
+*/	background-image: url("http://40.media.tumblr.com/tumblr_lmhg68flQ41qcg3zwo1_1280.jpg"); 
+	/*no-repeat center center fixed;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
 	margin-top: -10px;
-/*	background-position: center center;
-*/	/*background-size: cover;*/
+	background-position: center center;
+	background-size: cover;
 }
 
-.contact {
-	background-image: url("colonial_men_picnic.jpg");
-	background-size: 100%;
+.about {
+	background-image: url("http://i.imgur.com/U10hT.jpg");
 	background-repeat: no-repeat;
-	background-position: center center;
 	background-attachment: fixed;
+	background-size: 100%;
+	background-position: center center;
+	background-size: cover;
+}
+.contact {
+	background-image: url("http://images4.fanpop.com/image/photos/23800000/picnic-fashion-photography-23847030-1280-800.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: center center;
+	background-size: cover;
 }
 
 header nav {
@@ -36,7 +46,13 @@ h1 a:link {
 	text-decoration: none;
 	color: #FF0000;
 }
-h1 a:hover {
+.home h1 a:hover {
+ 	color: #A00;
+ }
+ .about h1 a:hover {
+ 	color: #A00;
+ }
+ .contact h1 a:hover {
  	color: #A00;
  }
 h1 a:visited {
@@ -44,13 +60,14 @@ h1 a:visited {
 }
 
 p {
-	font-family: futura;
+	font-family: Trebuchet MS;
 	color: white;
-	font-size: 30px;
+	font-size: 22px;
 	text-align: justify;
-	font-weight: normal;
-	padding: 0 10px;
-	background: rgba(20,20,20,0.5);
+	font-weight: 100;
+	padding: 20px 40px 10px 40px;
+	margin: 0px 5px;
+	background: rgba(20,20,20,0.75);
 }
 
 nav a:link {
@@ -62,18 +79,46 @@ nav a:link {
 	color: #EEE;
 	text-decoration: none;
 }
-nav a:hover {
+.home nav a:hover {
+ 	color: #3300CC;
+}
+.about nav a:hover {
+ 	color: #3300CC;
+} 
+.contact nav a:hover {
  	color: #3300CC;
 } 
 nav a:visited {
 	color: #AAA;
 }
 
+.about .about {
+	color: #3300CC;
+	background: #000;
+}
+.about .contact {
+	background: #000;
+}
 .contact .contact {
 	color: #3300CC;
+	background: #000;
+}
+.contact .about {
 	background: #000;
 }
 
 li {
 	list-style: none;
+	font-family: Trebuchet MS;
+	font-size: 22px;
+	color: white;
+	padding: 5px 40px 5px 80px;
+	margin: 0px 5px 0px -35px;
+	background: rgba(20,20,20,0.75)
+}
+
+img {
+	max-width: 50%;
+	height:auto;
+	padding: 100px 100px 100px 50px;
 }
