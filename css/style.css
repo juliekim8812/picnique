@@ -1,9 +1,20 @@
 body {
-	background-image: url("http://i.imgur.com/U10hT.jpg");
-	background-repeat: no-repeat;
+/*	background-image: url("http://i.imgur.com/U10hT.jpg");
+*/	background: url("red_picnic_blanket.jpg") no-repeat center center fixed; 
+	/*background-repeat: no-repeat;
 	background-attachment: scroll;
-	background-size: 100%;
+	background-size: 100%;*/
 	margin-top: -10px;
+/*	background-position: center center;
+*/	/*background-size: cover;*/
+}
+
+.contact {
+	background-image: url("colonial_men_picnic.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 header nav {
@@ -28,6 +39,9 @@ h1 a:link {
 h1 a:hover {
  	color: #A00;
  }
+h1 a:visited {
+	color: white;
+}
 
 p {
 	font-family: futura;
@@ -36,7 +50,7 @@ p {
 	text-align: justify;
 	font-weight: normal;
 	padding: 0 10px;
-	background: #AAA;
+	background: rgba(20,20,20,0.5);
 }
 
 nav a:link {
@@ -50,3 +64,16 @@ nav a:link {
 }
 nav a:hover {
  	color: #3300CC;
+} 
+nav a:visited {
+	color: #AAA;
+}
+
+.contact .contact {
+	color: #3300CC;
+	background: #000;
+}
+
+li {
+	list-style: none;
+}
